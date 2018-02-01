@@ -1,0 +1,25 @@
+name: GnomeMCBroadcast
+version: 1.0
+author: Simon_Xz
+main: broadcasts.broadcasts.CustomBroadcasts
+commands:
+   broadcast:
+      description: This command allows you to make your text stand out in chat.
+      usage: /broadcast <message>
+      permission: gnomemc.broadcast
+      permission-message: I'm sorry but it dosen't seem like you have the right permissions, Ask the server admin to add <permission>
+   bc:
+      description: This command allows you to make your text stand out in chat.
+      usage: /bc <message>
+      permission: gnomemc.broadcast
+      permission-message: I'm sorry but it dosen't seem like you have the right permissions, Ask the server admin to add <permission>
+   broadcastreload:
+      description: This command reloads the configs of the plugin
+      usage: /broadcastreload
+      permission: gnomemc.reload
+      permission-message: I'm sorry but it dosen't seem like you have the right permissions, Ask the server admin to add <permission>
+   shout:
+      description: This command allows you to make your text stand out in chat.
+      usage: /shout <message>
+      permission: gnomemc.broadcast
+      permission-message: I'm sorry but it dosen't seem like you have the right permissions, Ask the server admin to add <permission>
